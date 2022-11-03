@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+body {
+  background-image: linear-gradient(45deg, #00b5c9, #00ccbc);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+#decore-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bg-light {
+  background-color: transparent !important;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-nav {
+  font-size: 0.9em;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #db6851;
+  background-color: white;
+  padding: 10px;
+}
+
+#airplane-image {
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  width: 330px;
+  z-index: -1;
+  opacity: 50%;
+}
+
+.hero-text {
+  width: 50%;
+  margin-block-start: 100px;
+}
+.title {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #181e4b;
+  font-weight: 600;
+}
+
+.content-paragraph {
+  font-size: 5em;
+  line-height: 80px;
+  margin-block: 15px;
+  font-weight: bold;
+  color: white;
+  font-family: "Cormorant", serif;
+}
+
+.sub-content {
+  color: white;
+  font-size: 0.9em;
+  width: 70%;
+}
+
+#btn-find {
+  margin-block: 30px;
+  font-family: inherit;
+  padding: 15px;
+  border-radius: 0px;
+  font-size: 0.9em;
+  background-color: #db6851;
+  outline: none;
+  border: none;
+}
+
+#hero-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 800px;
+  z-index: -1;
+}
+
+.middle-section {
+  margin-block: 15vh;
+}
+
+h2 {
+  text-align: center;
+  margin-block: 30px;
+  color: #181e4b;
+  font-family: "Cormorant", serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.icon-image-content img {
+  width: 50px;
+}
+
+.text-align {
+  text-align: center;
+  margin-block-end: 30px;
+  row-gap: 30px;
+}
+
+.weather {
+  font-weight: 600;
+  color: #181e4b;
+}
+.weather-paragraph {
+  color: white;
+  font-size: 0.8em;
+  padding-inline: 55px;
+}
+
+.card-weather {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+.card-weather:hover {
+  background-color: #fffbfb;
+  padding: 10px;
+  padding-block: 9px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #181e4b;
+  box-shadow: 10px 22px 27px -8px;
+  transition: 1s;
+}
+.card-weather:hover .weather-paragraph {
+  color: #181e4b;
+  transition: 1s;
+}
+
+h1 {
+  font-size: 4em;
+  margin-block: 30px;
+  color: #181e4b;
+  font-family: "Cormorant", serif;
+  font-weight: bold;
+  margin-block: 0;
+}
+
+#book-text-info {
+  color: white;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.card {
+  max-width: 350px;
+  border-radius: 20px;
+  /* min-height: 31vh; */
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 10px 22px 27px -8px gray;
+  cursor: pointer;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 10px 22px 27px -8px rgb(180, 93, 0);
+  padding: 5px;
+  transition: 1s;
+}
+.card-img-top {
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #db6851;
+  height: 10vh;
+  margin-top: 30px;
+}
