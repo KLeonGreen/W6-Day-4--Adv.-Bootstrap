@@ -85,7 +85,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 800px;
+  width: 900px;
   z-index: -1;
 }
 
@@ -129,6 +129,11 @@ h2 {
   border-radius: 20px;
   cursor: pointer;
   transition: 2s;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px white solid;
+  justify-content: space-evenly;
 }
 .card-weather:hover {
   background-color: #fffbfb;
@@ -194,4 +199,58 @@ footer {
   background-color: #db6851;
   height: 10vh;
   margin-top: 30px;
+}
+
+.row {
+  margin-bottom: 50px;
+  row-gap: 8em;
+}
+
+.deal-icon {
+  background-color: #33c5d4;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+}
+div .deal-paragraph-content p {
+  font-size: 0.9em;
+  font-weight: 400;
+  width: 70%;
+  opacity: 60%;
+  color: white;
+}
+div .deal-paragraph-content h6 {
+  color: white;
+}
+
+.card-deal img {
+  min-height: 40vh;
+  object-fit: cover;
+}
+
+.card-bottom {
+  padding: 20px;
+}
+.card-body2 {
+  padding: 0;
+}
+.card-body2 p {
+  color: #84829a;
+}
+.card-title2 {
+  margin-top: 10px;
+}
+.card-text2 {
+  margin-bottom: 0;
+  color: #84829a;
+}
+
+.card-lower {
+  background-color: white;
+  border-radius: 20px;
+  height: 20vh;
 }
